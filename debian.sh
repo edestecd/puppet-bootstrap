@@ -16,7 +16,7 @@ DISTRIB_CODENAME=$(lsb_release -c -s)
 
 PUPPET_COLLECTION=${PUPPET_COLLECTION:-"6"}
 case "${PUPPET_COLLECTION}" in
-6|7)   PUPPETLABS_RELEASE_DEB="http://apt.puppetlabs.com/puppet${PUPPET_COLLECTION}-release-${DISTRIB_CODENAME}.deb" ;;
+6|7)   PUPPETLABS_RELEASE_DEB="http://apt.puppet.com/puppet${PUPPET_COLLECTION}-release-${DISTRIB_CODENAME}.deb" ;;
 *)
   echo "Unknown/Unsupported PUPPET_COLLECTION." >&2
   exit 1
