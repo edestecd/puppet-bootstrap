@@ -28,6 +28,7 @@ if [ -z "${PLATFORM}" ]; then
       Debian)
         PLATFORM="debian"
         echo "[${lsb_id} ${lsb_re} Detected]"
+        ;;
       Ubuntu)
         PLATFORM="ubuntu"
         echo "[${lsb_id} ${lsb_re} Detected]"
