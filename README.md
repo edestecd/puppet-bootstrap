@@ -62,7 +62,7 @@ rm -rf puppet-bootstrap-master
 ### bootstrap options
 
 ```shell
-./bootstrap.sh {redhat_5|redhat_6|redhat_7|debian|ubuntu|osx} [environment] [collection] [server]
+./bootstrap.sh {redhat_5|redhat_6|redhat_7|redhat_8|debian|ubuntu|osx} [environment] [collection] [server]
 ```
 
 ### force puppet run (after sign cert)
