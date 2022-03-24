@@ -25,6 +25,10 @@ if [ -z "${PLATFORM}" ]; then
         PLATFORM="centos_${lsb_re}_x"
         echo "[${lsb_id} ${lsb_re} Detected]"
         ;;
+      Debian)
+        PLATFORM="debian"
+        echo "[${lsb_id} ${lsb_re} Detected]"
+        ;;
       Ubuntu)
         PLATFORM="ubuntu"
         echo "[${lsb_id} ${lsb_re} Detected]"
