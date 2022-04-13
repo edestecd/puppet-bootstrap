@@ -39,7 +39,7 @@ if [ -z "${PLATFORM}" ]; then
       etcsys_re=$(cat /etc/system-release | grep -o [0-9] | head -n 1)
       echo "[${etcsys_id} ${etcrh_re} Detected]"
       case "${etcsys_id}" in
-        RedHatEnterpriseServer|CentOS|OracleServer|EnterpriseEnterpriseServer)
+        RedHatEnterpriseServer|CentOS|OracleServer|Oracle|EnterpriseEnterpriseServer)
           PLATFORM="centos_${etcsys_re}_x"
         ;;
         Amazon)
